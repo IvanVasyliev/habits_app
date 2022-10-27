@@ -25,3 +25,9 @@ python manage.py runserver
 ```
 
 4. for testing you can run this command 
+
+```console
+python manage.py test
+```
+
+You can find test data in `./habits/fixtures.py`
