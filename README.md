@@ -31,3 +31,10 @@ python manage.py test
 ```
 
 You can find test data in `./habits/fixtures.py`
+
+5. Examples of requsts to service (how to interact with system)
+
+```json
+/create_user
+{}
+```
