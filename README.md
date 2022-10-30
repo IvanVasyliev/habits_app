@@ -32,7 +32,7 @@ python manage.py test
 
 You can find test data in `./habits/fixtures.py`
 
-5. Examples of requsts to service (how to interact with system)
+# Examples of requsts to service (how to interact with system)
 
 You can create and run them in postman
 
