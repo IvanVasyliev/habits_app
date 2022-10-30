@@ -34,7 +34,7 @@ You can find test data in `./habits/fixtures.py`
 
 5. Examples of requsts to service (how to interact with system)
 
-```json
+```js
 'url': '/habits/create_user',
 'request_data': {'email': 'test1@test.com', 'username': 'test1'},
 'response_data': {'user_id': 2}
