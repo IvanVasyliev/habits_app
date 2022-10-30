@@ -59,3 +59,21 @@ REGISTER USER FOR HABIT
 'request_data': {'user_id': 2, 'habit_id': 1},
 'response_data': {'registred_habit_id': 2}
 ```
+
+USER SUBMIT FOR HABIT 
+
+```js
+'url': '/habits/new_habit_action',
+'request_data': {'user_id': 1, 'habit_id': 1, 'submit_date': '2022-10-20'},
+'response_data': {'habit_name': 'make push-ups', 'total_steak': 1, 'longest_steak': 1, 'current_steak': 1}
+```
+
+GET INFO ABOUT USER (RETURN INFO ABOUT USER HABITS)
+
+```js
+'url': '/habits/get_user_info',
+'request_data': {'user_id': 1},
+'response_data': [{'habit_name': 'make push-ups', 'total_steak': 2, 'longest_steak': 2, 'current_steak': 2}]
+```
+
+
