@@ -52,3 +52,10 @@ CREATE HABIT
 'response_data': {'habit_id': 1}
 ```
 
+REGISTER USER FOR HABIT
+
+```js
+'url': '/habits/register_user_for_habit',
+'request_data': {'user_id': 2, 'habit_id': 1},
+'response_data': {'registred_habit_id': 2}
+```
