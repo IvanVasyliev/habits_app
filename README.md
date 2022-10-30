@@ -34,6 +34,10 @@ You can find test data in `./habits/fixtures.py`
 
 5. Examples of requsts to service (how to interact with system)
 
+You can create and run them in postman
+
+CREATE USER
+
 ```js
 'url': '/habits/create_user',
 'request_data': {'email': 'test1@test.com', 'username': 'test1'},
