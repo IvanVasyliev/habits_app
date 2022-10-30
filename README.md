@@ -43,3 +43,12 @@ CREATE USER
 'request_data': {'email': 'test1@test.com', 'username': 'test1'},
 'response_data': {'user_id': 2}
 ```
+
+CREATE HABIT
+
+```js
+'url': '/habits/create_habit',
+'request_data': {'title': 'make push-ups', 'description': 'Make push-ups', 'period': 'DAY'},
+'response_data': {'habit_id': 1}
+```
+
